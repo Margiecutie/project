@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    background: #EADDCA;
+    display: flex;
+    justify-content: center; /* Center the combined container */
+    align-items: center;
+    min-height: 100vh;
+}
+
+.combined-container {
+    display: flex;
+    align-items: center; /* Align logo and form vertically */
+    border: 2px solid black; /* Black border around the combined container */
+    border-radius: 10px; /* Optional: Add rounded corners */
+    padding: 20px; /* Add some padding around the content */
+    background-color: #EADDCA; /* Match background color */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Add shadow */
+}
+
+
+.logo {
+    width: 500px; /* Adjust as needed */
+    height: auto;
+    margin-right: 50px; /* Space between logo and login container */
+}
+
+.login-container {
+    width: 100%; /* Take full width available */
+    max-width: 500px;
+    padding: 20px; /* Adjust padding as needed */
+    text-align: center;
+}
+
+/* Additional styles for labels, input fields, and buttons */
+.email-label, .password-label {
+    font-family: 'Kanit', sans-serif;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+
+.frame1, .frame2 {
+    width: 100%;
+    height: 50px;
+    border-radius: 25px;
+    margin-bottom: 20px;
+    padding: 0 20px;
+    border: 2px solid black; /* Black border for input fields */
+    background: #FFFFFF;
+}
+
+.frame1:focus, .frame2:focus {
+    border-color: black; /* Keep the border color black when focused */
+    outline: none; /* Remove default outline */
+}
+
+.frame3 {
+    width: 100%;
+    height: 50px;
+    background: #90604C;
+    color: #FFFFFF;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 800;
+    cursor: pointer;
+    border: 2px solid black; /* Add black border to the button */
+    border-radius: 25px;
+}
+
+.frame3:active {
+    background-color: #704236; /* Darker shade when clicked */
+}
+
+.forgot-password {
+    font-family: 'Kanit', sans-serif;
+    font-weight: 300;
+    color: #90604C;
+    text-decoration: underline;
+    margin-top: 20px;
+}
